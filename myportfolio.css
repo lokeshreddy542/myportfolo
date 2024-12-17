@@ -1,0 +1,144 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    overflow: auto;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.profile h2 {
+    margin-top: 15px;
+}
+
+nav ul {
+    position: fixed;
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li {
+    margin: 15px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.main-content {
+    margin-left: 220px;
+    width: 75%;
+    padding: 40px;
+}
+
+.ABOUT h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.ABOUT p {
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.EDUCATION h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.EDUCATION p {
+    line-height: 0.5;
+    margin-bottom: 40px;
+}
+.SKILLS h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.SKILLS i {
+    font-size: 70px;
+    padding-left: 40px;  
+}
+i:hover{
+    color: orange;
+}
+.PROJECT h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.PROJECT h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.PROJECT h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.PROJECT h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.AWARDS h1{
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+.AWARDS h2{
+    font-size: 15px;
+}
+.Contact h1{
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+input{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 30%;
+    height: 40%;
+}
+textarea{
+    border: 1px solid black;
+    font-size: 20px;
+    width: 30%;
+    height: 40%;
+    margin-bottom: 10px;
+}
+.button {
+    border: none;
+    background-color: blue;
+    color: white;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 80px;
+    cursor: pointer;
+  }
+  
